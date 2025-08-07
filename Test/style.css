@@ -1,0 +1,48 @@
+input {
+color: aqua;
+}
+div {
+    display: flex;
+align-items: center;
+}
+.classNameForInput {
+color: crimson
+}
+
+.text {
+font-style: oblique;
+}
+
+.button {
+border: 2px solid salmon;
+transition: background 0.3s;
+&:hover {
+background: pink;
+}    
+}
+#myId {
+color: violet;
+}
+
+.button2 {
+display: block;
+position: absolute;
+top: 500px;
+left: 133px;
+}
+.pic {
+width:50%;
+overflow: hidden;
+}
+.div1 {
+width: 10vw;
+}
+.div2 {
+width: 10rem;
+isolation: isolate;
+padding: 20px 10px;
+}
+.div3 {
+width: 10rem;
+margin: 20px 10px;
+}
