@@ -16,14 +16,13 @@ a {
 text-decoration: none;
 }
 a:hover {
-font-weight: 700;
 color: #00A4E5;
 }
 ul {
 list-style-type: none;
 }
 .MasterMargin {
-margin: 0px 17% 0px 17%;
+/* margin: 0 17% 0 17%; */
 }
 .FirstHead {
 height: 100dvh;
@@ -34,8 +33,10 @@ color: #FFFFFF;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-around;
+justify-content: space-between;
 box-sizing: border-box;
+background-position: center center;
+padding: 4% 0;
 }
 .PartOfFirstHead {
 display: flex;
@@ -96,7 +97,7 @@ justify-content: space-between;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-top: 1px;
+margin-bottom: 84px;
 }
 .OURSTORY {
 font-size: 18px;
@@ -111,7 +112,6 @@ border: #00A4E5 solid 1px;
 border-right: 2px;
 border-left: 2px;
 box-sizing: border-box;
-margin-bottom: 84px;
 }
 .TableLike {
 display: flex;
@@ -146,6 +146,9 @@ font-weight: 800;
 line-height: 29px;
 letter-spacing: 0.19px;
 color: #FFFFFF;
+max-width: 1530px;
+max-height: 1155px;
+width: 100%;
 }
 .PicList {
 display: flex;
@@ -154,21 +157,25 @@ align-items: end;
 gap: 10px;
 }
 .TextPosition {
-padding: 15px 0px 0px 14px;
+padding: 15px 0px 0px 15px;
 }
 .CardSize {
-width: 140px;
-height: 224px;
-background-size: 100%;
+min-width: 224px;
+max-width: 500px;   
+min-height: 140px;
+max-height: 375px;
+flex-grow: 1;
+flex-shrink: 0;
+background-position: center center;
 }
 .PLAN {
-background-image: url(BitmapRuler.png);
+background-image: url(73cc5eb960e83d36973db21cdc7bd693932fe622.png);
 }
 .MANAGE {
-background-image: url(Bitmap.png);
+background-image: url(b67fa7233e349177c2c3c6968d060ef7e3efc414.png);
 }
 .BUILD {
-background-image: url(BitmapTiles.png);
+background-image: url(a1c99d666e6189da4ae2005a02cd3ebc03cf414b.png);
 }
 .test {
 background-color: #eb7fe5;
