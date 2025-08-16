@@ -1,0 +1,417 @@
+body {
+    background-color:white;
+    color:#48555B;
+    font-family: 'Open Sans';
+    font-size:22px;
+    font-weight: 600;
+    font-style: normal;
+    margin: auto;
+    caret-color: transparent;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+text-decoration: none;
+}
+a:visited {
+color: inherit;
+}
+a:hover {
+color: #00A4E5;
+}
+ul {
+list-style-type: none;
+}
+.MasterMargin {
+margin: 0 17% 0 17%;
+}
+.FirstHead {
+height: 100dvh;
+background-image: url(d05535c1dc806874b6b1ae855fcc702d23d8879e.png);
+background-size: cover;
+background-repeat: no-repeat;
+color: #FFFFFF;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+background-position: center center;
+padding: 4% 0;
+}
+.PartOfFirstHead {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.PARTNER {
+font-family: 'Bebas Neue';
+font-size: 60px;
+line-height: 100%;
+font-weight: 400;
+letter-spacing: 5.71px;
+text-wrap: nowrap;
+}
+.Anaward {
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 100%;
+text-wrap: nowrap;
+}
+.SCROLL {
+font-size: 11px;
+letter-spacing: 3.7px;
+line-height: 100%;
+text-wrap: nowrap;
+}
+.StickyHeader {
+height: 65px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+box-sizing: border-box;
+font-size: 12px;
+letter-spacing: 1.09px;
+line-height: 100%;
+background-color: #FFFFFF;
+}
+.BorderForStickyHeader {
+border: #E6E6E6 solid 1px;
+background-color: #FFFFFF; 
+margin-bottom: 58px;
+position: sticky;
+top: 0;
+}
+.NaviList {
+display: flex;
+flex-direction: row;
+gap: 30px;
+}
+.StoryBlock {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 118px;
+}
+.CentralInfo {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 84px;
+}
+.OURSTORY {
+font-size: 18px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 2.31px;
+margin-bottom: 10px;
+}
+.BlueLine {
+width: 50px;
+border: #00A4E5 solid 1px;
+border-right: 2px;
+border-left: 2px;
+box-sizing: border-box;
+}
+.TableLike {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 80px;
+}
+.StoryDiv {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.Founded {
+font-size: 20px;
+font-weight: 700;
+line-height: 130%;
+letter-spacing: 0.19px;
+}
+.LoremTable {
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.19px;
+}
+.Konstruct {
+color: #00A4E5;
+letter-spacing: 0.17px;
+}
+.PicturesDiv {
+font-size: 24px;
+font-weight: 800;
+line-height: 29px;
+letter-spacing: 0.19px;
+color: #FFFFFF;
+max-width: 1530px;
+max-height: 1155px;
+width: 100%;
+}
+.PicList {
+display: flex;
+flex-direction: row;
+align-items: end;
+gap: 10px;
+}
+.TextPosition {
+padding: 15px 0px 0px 15px;
+}
+.CardSize {
+min-width: 224px;
+max-width: 500px;   
+min-height: 140px;
+max-height: 375px;
+flex-grow: 1;
+flex-shrink: 0;
+background-position: center center;
+}
+.PLAN {
+background-image: url(73cc5eb960e83d36973db21cdc7bd693932fe622.png);
+}
+.MANAGE {
+background-image: url(b67fa7233e349177c2c3c6968d060ef7e3efc414.png);
+}
+.BUILD {
+background-image: url(a1c99d666e6189da4ae2005a02cd3ebc03cf414b.png);
+}
+.CapabMain {
+display: flex;
+flex-direction: column;
+gap: 78px;
+margin-bottom: 115px;
+}
+.CapabSub1 {
+display: flex;
+flex-direction: row;
+justify-content: space-between; 
+gap: 32px;   
+}
+.CapabSub1Left {
+display: flex;
+flex-direction: column;
+}
+.CapabSub1Right {
+display: flex;
+flex-direction: row; 
+gap: 32px;    
+}
+.CapabSub1LeftSpan {
+font-size: 18px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 2.31px;
+margin-bottom: 10px;
+}
+.CapabSubSub1Left {
+font-size: 11px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0.2px;
+vertical-align: middle;  
+}
+.CapabSubSub1Right {
+font-size: 13px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0.5px;
+vertical-align: bottom;
+background-color: #00A4E5;
+padding: 11px 29px; 
+color: #FFFFFF;   
+}
+.CapabSub2 {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+gap: 28px; 
+}
+.ImgForCapabSub2 {
+height: 75px;
+width: 65px;
+}
+.BorderForCapabSub2 {
+border: solid 1px  #E6E6E6; 
+padding: 38px 22px 39px 23px;
+display: flex;
+flex-direction: column;
+gap: 25px;   
+}
+.TextForCapabSub2 {
+display: flex;
+flex-direction: column;
+gap: 13px;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.43px;
+vertical-align: middle;
+}
+.FinTextForCapabSub2{
+font-size: 13px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0.19px;    
+}
+.LandscapeMain {
+background-image: url(Landscape.png);
+height: 100dvh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center; 
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.LandscapeSub {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 35px;    
+}
+.LandscapeSpan {
+font-size: 30px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0.15px;
+vertical-align: middle;
+text-align: center;  
+}
+.LandscapeButton {
+font-size: 13px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+background-color: #00A4E5;
+border: none; 
+padding: 11px 26px;
+width: fit-content;     
+}
+.LandscapeButton:hover {
+cursor: pointer;
+background-color: #00b7ff;
+transition: background-color 0.3s ease-in-out;
+}
+.SubmitMain {
+background-color: #171819;
+padding: 30px 0 30px 0;
+display: flex;
+justify-content: center;
+}
+.LabelForSubmit {
+font-size: 22px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0.85px;
+color: #FFFFFF;  
+padding: 5px 70px 5px 0;
+}
+.InputForSubmit {
+font-size: 14px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0.07px;
+color: #48555B;  
+padding: 11px 90px 10px 16px;
+border: none;
+}
+.ButtonForSubmit {
+font-size: 13px;
+font-weight: 700;
+line-height: 100%;
+letter-spacing: 0.5px;
+color: #FFFFFF;  
+background-color: #00A4E5;  
+padding: 11px 49.5px;
+border: none; 
+}
+.ButtonForSubmit:hover {
+cursor: pointer;
+background-color: #00b7ff;
+transition: background-color 0.3s ease-in-out;
+}
+.ExtrasMain {
+color: #FFFFFF;
+font-size: 11px;
+font-weight: 400;
+line-height: 100%;
+letter-spacing: 0.85px; 
+vertical-align: middle;
+}
+.ExtrasTop {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 42px 0 40px 0;
+gap: 60px;
+}
+.BackgroundForExtrasTop {
+background-color: #141A20;
+}
+.ExtrasTopLeft {
+display: flex;
+flex-direction: column;
+gap: 19px;  
+}
+.ExtrasTopLeftSub {
+display: flex;
+flex-direction: column;
+gap: 15px;   
+}
+.WhiteProjecoLogo {
+height: 23px;
+width: 102px;
+}
+.ExtrasTopLeftSpanBottom {
+line-height: 19px;   
+vertical-align: middle;   
+}
+.ExtrasTopMiddleLeft {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.ExtrasTopMiddleLeftMainUl {
+font-weight: 600;
+line-height: 25px;
+display: flex;
+flex-direction: row;
+gap: 35px;
+white-space: nowrap;
+}
+.ExtrasTopMiddleRight {
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+.ExtrasTopMiddleRightSpanBottom {
+line-height: 16px;
+}
+.ExtrasTopRight {
+padding-top: 30px;
+}
+.ExtrasTopRightSub {
+display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.CompanyLogo {
+height: 12px;
+width: 12px;
+filter: brightness(0) invert(1);
+}
+.ExtrasBottom {
+display: flex;
+justify-content: center; 
+background-color: #171819;  
+padding: 22px 0 23px 0;    
+}
+/* margin-inline: auto; */
+/* to adjust pads from sides */
